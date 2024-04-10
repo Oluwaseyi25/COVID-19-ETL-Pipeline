@@ -1,0 +1,325 @@
+[2024-01-13T00:13:36.266+0000] {processor.py:161} INFO - Started process (PID=1144) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:36.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T00:13:36.270+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:36.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:36.472+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:36.491+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:36.491+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T00:13:36.499+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:36.499+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T00:13:36.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.244 seconds
+[2024-01-13T00:13:37.229+0000] {processor.py:161} INFO - Started process (PID=1146) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:37.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T00:13:37.235+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:37.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:37.734+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T00:13:37.755+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:37.755+0000] {taskinstance.py:2701} ERROR - {'DAG Id': 'covid_dag', 'Task Id': 'download_upload_data', 'Run Id': 'scheduled__2024-01-12T00:00:00+00:00', 'Hostname': '03764ffcaa3d', 'External Executor Id': '4d6321ef-5505-4a6d-aee5-99c79ec80a6a'}
+[2024-01-13T00:13:37.768+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:37.767+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=covid_dag, task_id=download_upload_data, execution_date=20240112T000000, start_date=20240113T000000, end_date=20240113T001337
+[2024-01-13T00:13:37.776+0000] {processor.py:791} INFO - Executed failure callback for <TaskInstance: covid_dag.download_upload_data scheduled__2024-01-12T00:00:00+00:00 [failed]> in state failed
+[2024-01-13T00:13:37.822+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:37.821+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T00:13:37.841+0000] {logging_mixin.py:188} INFO - [2024-01-13T00:13:37.841+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T00:13:37.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.629 seconds
+[2024-01-13T01:05:44.487+0000] {processor.py:161} INFO - Started process (PID=1154) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T01:05:44.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T01:05:44.490+0000] {logging_mixin.py:188} INFO - [2024-01-13T01:05:44.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T01:05:44.763+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T01:05:44.773+0000] {logging_mixin.py:188} INFO - [2024-01-13T01:05:44.772+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T01:05:44.780+0000] {logging_mixin.py:188} INFO - [2024-01-13T01:05:44.780+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T01:05:44.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.302 seconds
+[2024-01-13T02:05:31.744+0000] {processor.py:161} INFO - Started process (PID=1162) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T02:05:31.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T02:05:31.747+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:05:31.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T02:05:31.947+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T02:05:31.957+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:05:31.957+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T02:05:31.965+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:05:31.965+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T02:05:31.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.229 seconds
+[2024-01-13T02:28:30.211+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T02:28:30.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T02:28:30.213+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:28:30.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T02:28:30.418+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T02:28:30.427+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:28:30.427+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T02:28:30.435+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:28:30.435+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T02:28:30.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.233 seconds
+[2024-01-13T02:36:29.849+0000] {processor.py:161} INFO - Started process (PID=1178) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T02:36:29.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T02:36:29.852+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:36:29.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T02:36:30.087+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T02:36:30.099+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:36:30.098+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T02:36:30.109+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:36:30.109+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T02:36:30.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.272 seconds
+[2024-01-13T02:55:25.770+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T02:55:25.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T02:55:25.773+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:55:25.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T02:55:26.074+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T02:55:26.094+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:55:26.094+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T02:55:26.110+0000] {logging_mixin.py:188} INFO - [2024-01-13T02:55:26.110+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T02:55:26.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.356 seconds
+[2024-01-13T03:17:44.084+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T03:17:44.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T03:17:44.088+0000] {logging_mixin.py:188} INFO - [2024-01-13T03:17:44.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T03:17:44.396+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T03:17:44.417+0000] {logging_mixin.py:188} INFO - [2024-01-13T03:17:44.416+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T03:17:44.429+0000] {logging_mixin.py:188} INFO - [2024-01-13T03:17:44.429+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T03:17:44.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.362 seconds
+[2024-01-13T04:29:21.983+0000] {processor.py:161} INFO - Started process (PID=1203) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T04:29:21.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T04:29:21.987+0000] {logging_mixin.py:188} INFO - [2024-01-13T04:29:21.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T04:29:22.287+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T04:29:22.307+0000] {logging_mixin.py:188} INFO - [2024-01-13T04:29:22.306+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T04:29:22.329+0000] {logging_mixin.py:188} INFO - [2024-01-13T04:29:22.329+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T04:29:22.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.366 seconds
+[2024-01-13T05:09:47.468+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T05:09:47.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T05:09:47.473+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:09:47.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T05:09:48.107+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T05:09:48.131+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:09:48.131+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T05:09:48.142+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:09:48.142+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T05:09:48.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.685 seconds
+[2024-01-13T05:49:31.538+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T05:49:31.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T05:49:31.541+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:49:31.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T05:49:31.731+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T05:49:31.741+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:49:31.741+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T05:49:31.749+0000] {logging_mixin.py:188} INFO - [2024-01-13T05:49:31.749+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T05:49:31.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.223 seconds
+[2024-01-13T06:31:32.646+0000] {processor.py:161} INFO - Started process (PID=1227) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T06:31:32.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T06:31:32.652+0000] {logging_mixin.py:188} INFO - [2024-01-13T06:31:32.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T06:31:32.965+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T06:31:32.983+0000] {logging_mixin.py:188} INFO - [2024-01-13T06:31:32.983+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T06:31:32.997+0000] {logging_mixin.py:188} INFO - [2024-01-13T06:31:32.997+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T06:31:33.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.363 seconds
+[2024-01-13T07:39:37.822+0000] {processor.py:161} INFO - Started process (PID=1235) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T07:39:37.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T07:39:37.824+0000] {logging_mixin.py:188} INFO - [2024-01-13T07:39:37.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T07:39:38.008+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T07:39:38.018+0000] {logging_mixin.py:188} INFO - [2024-01-13T07:39:38.017+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T07:39:38.025+0000] {logging_mixin.py:188} INFO - [2024-01-13T07:39:38.025+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T07:39:38.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.212 seconds
+[2024-01-13T08:53:02.127+0000] {processor.py:161} INFO - Started process (PID=1243) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T08:53:02.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T08:53:02.133+0000] {logging_mixin.py:188} INFO - [2024-01-13T08:53:02.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T08:53:02.476+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T08:53:02.496+0000] {logging_mixin.py:188} INFO - [2024-01-13T08:53:02.496+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T08:53:02.506+0000] {logging_mixin.py:188} INFO - [2024-01-13T08:53:02.506+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T08:53:02.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.394 seconds
+[2024-01-13T10:33:05.912+0000] {processor.py:161} INFO - Started process (PID=1251) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T10:33:05.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T10:33:05.915+0000] {logging_mixin.py:188} INFO - [2024-01-13T10:33:05.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T10:33:06.111+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T10:33:06.121+0000] {logging_mixin.py:188} INFO - [2024-01-13T10:33:06.121+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T10:33:06.129+0000] {logging_mixin.py:188} INFO - [2024-01-13T10:33:06.129+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T10:33:06.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.228 seconds
+[2024-01-13T11:33:23.541+0000] {processor.py:161} INFO - Started process (PID=1259) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:23.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T11:33:23.543+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:23.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:23.721+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:23.730+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:23.730+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T11:33:23.738+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:23.738+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T11:33:23.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.205 seconds
+[2024-01-13T11:33:53.943+0000] {processor.py:161} INFO - Started process (PID=1267) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:53.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T11:33:53.945+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:53.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:54.136+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T11:33:54.146+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:54.145+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T11:33:54.153+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:33:54.153+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T11:33:54.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.218 seconds
+[2024-01-13T11:34:24.254+0000] {processor.py:161} INFO - Started process (PID=1275) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:24.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T11:34:24.259+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:24.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:24.467+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:24.477+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:24.477+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T11:34:24.484+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:24.484+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T11:34:24.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.244 seconds
+[2024-01-13T11:34:54.722+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:54.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T11:34:54.726+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:54.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:54.931+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T11:34:54.940+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:54.940+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T11:34:54.948+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:34:54.948+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T11:34:54.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.238 seconds
+[2024-01-13T11:35:25.019+0000] {processor.py:161} INFO - Started process (PID=1291) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T11:35:25.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T11:35:25.024+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:35:25.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T11:35:25.222+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T11:35:25.231+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:35:25.230+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T11:35:25.238+0000] {logging_mixin.py:188} INFO - [2024-01-13T11:35:25.238+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T11:35:25.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.231 seconds
+[2024-01-13T12:31:28.037+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T12:31:28.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T12:31:28.042+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:31:28.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T12:31:28.385+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T12:31:28.404+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:31:28.404+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T12:31:28.417+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:31:28.417+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T12:31:28.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.393 seconds
+[2024-01-13T12:46:08.615+0000] {processor.py:161} INFO - Started process (PID=1308) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T12:46:08.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T12:46:08.618+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:46:08.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T12:46:08.808+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T12:46:08.818+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:46:08.817+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T12:46:08.825+0000] {logging_mixin.py:188} INFO - [2024-01-13T12:46:08.825+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T12:46:08.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.220 seconds
+[2024-01-13T13:28:12.087+0000] {processor.py:161} INFO - Started process (PID=1317) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T13:28:12.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T13:28:12.092+0000] {logging_mixin.py:188} INFO - [2024-01-13T13:28:12.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T13:28:12.380+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T13:28:12.399+0000] {logging_mixin.py:188} INFO - [2024-01-13T13:28:12.398+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T13:28:12.409+0000] {logging_mixin.py:188} INFO - [2024-01-13T13:28:12.409+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T13:28:12.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.333 seconds
+[2024-01-13T14:08:56.703+0000] {processor.py:161} INFO - Started process (PID=1324) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T14:08:56.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T14:08:56.706+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:08:56.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T14:08:56.905+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T14:08:56.914+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:08:56.914+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T14:08:56.922+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:08:56.921+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T14:08:56.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.228 seconds
+[2024-01-13T14:58:49.320+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T14:58:49.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T14:58:49.326+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:58:49.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T14:58:49.675+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T14:58:49.696+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:58:49.695+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T14:58:49.709+0000] {logging_mixin.py:188} INFO - [2024-01-13T14:58:49.709+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T14:58:49.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.399 seconds
+[2024-01-13T15:21:34.359+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T15:21:34.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T15:21:34.361+0000] {logging_mixin.py:188} INFO - [2024-01-13T15:21:34.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T15:21:34.598+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T15:21:34.613+0000] {logging_mixin.py:188} INFO - [2024-01-13T15:21:34.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T15:21:34.629+0000] {logging_mixin.py:188} INFO - [2024-01-13T15:21:34.629+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T15:21:34.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.284 seconds
+[2024-01-13T16:20:32.836+0000] {processor.py:161} INFO - Started process (PID=1348) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T16:20:32.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T16:20:32.839+0000] {logging_mixin.py:188} INFO - [2024-01-13T16:20:32.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T16:20:33.105+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T16:20:33.120+0000] {logging_mixin.py:188} INFO - [2024-01-13T16:20:33.120+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T16:20:33.133+0000] {logging_mixin.py:188} INFO - [2024-01-13T16:20:33.133+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T16:20:33.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.309 seconds
+[2024-01-13T17:16:02.080+0000] {processor.py:161} INFO - Started process (PID=1356) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T17:16:02.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T17:16:02.086+0000] {logging_mixin.py:188} INFO - [2024-01-13T17:16:02.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T17:16:02.464+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T17:16:02.485+0000] {logging_mixin.py:188} INFO - [2024-01-13T17:16:02.484+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T17:16:02.496+0000] {logging_mixin.py:188} INFO - [2024-01-13T17:16:02.496+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T17:16:02.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.438 seconds
+[2024-01-13T18:02:15.554+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T18:02:15.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T18:02:15.556+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:02:15.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T18:02:15.743+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T18:02:15.752+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:02:15.752+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T18:02:15.760+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:02:15.760+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T18:02:15.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.215 seconds
+[2024-01-13T18:54:37.991+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T18:54:37.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T18:54:37.999+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:54:37.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T18:54:38.261+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T18:54:38.271+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:54:38.271+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T18:54:38.279+0000] {logging_mixin.py:188} INFO - [2024-01-13T18:54:38.279+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T18:54:38.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.297 seconds
+[2024-01-13T19:21:46.402+0000] {processor.py:161} INFO - Started process (PID=1379) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:21:46.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:21:46.404+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:21:46.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:21:46.639+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:21:46.652+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:21:46.651+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:21:46.662+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:21:46.662+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:21:46.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.270 seconds
+[2024-01-13T19:34:04.329+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:04.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:34:04.337+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:04.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:04.665+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:04.684+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:04.684+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:34:04.707+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:04.707+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:34:04.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.390 seconds
+[2024-01-13T19:34:34.953+0000] {processor.py:161} INFO - Started process (PID=1395) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:34.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:34:34.954+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:34.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:35.136+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:34:35.145+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:35.144+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:34:35.153+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:34:35.153+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:34:35.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.208 seconds
+[2024-01-13T19:35:05.232+0000] {processor.py:161} INFO - Started process (PID=1403) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:05.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:35:05.237+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:05.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:05.442+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:05.452+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:05.452+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:35:05.461+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:05.461+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:35:05.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.241 seconds
+[2024-01-13T19:35:35.695+0000] {processor.py:161} INFO - Started process (PID=1411) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:35.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:35:35.699+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:35.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:35.892+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:35:35.902+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:35.901+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:35:35.909+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:35:35.909+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:35:35.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.224 seconds
+[2024-01-13T19:53:32.574+0000] {processor.py:161} INFO - Started process (PID=1419) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T19:53:32.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T19:53:32.581+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:53:32.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T19:53:32.971+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T19:53:32.995+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:53:32.995+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T19:53:33.007+0000] {logging_mixin.py:188} INFO - [2024-01-13T19:53:33.007+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T19:53:33.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.447 seconds
+[2024-01-13T20:01:23.839+0000] {processor.py:161} INFO - Started process (PID=1427) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:23.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:01:23.841+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:23.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:24.126+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:24.256+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:24.256+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:01:24.270+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:24.270+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:01:24.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.443 seconds
+[2024-01-13T20:01:56.382+0000] {processor.py:161} INFO - Started process (PID=1436) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:56.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:01:56.386+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:56.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:56.582+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:01:56.591+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:56.591+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:01:56.599+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:01:56.599+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:01:56.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.229 seconds
+[2024-01-13T20:02:26.679+0000] {processor.py:161} INFO - Started process (PID=1444) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:26.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:02:26.684+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:26.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:26.889+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:26.897+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:26.897+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:02:26.905+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:26.905+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:02:26.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.238 seconds
+[2024-01-13T20:02:57.118+0000] {processor.py:161} INFO - Started process (PID=1452) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:57.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:02:57.120+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:57.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:57.297+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:02:57.307+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:57.306+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:02:57.314+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:02:57.314+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:02:57.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.204 seconds
+[2024-01-13T20:03:27.345+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:03:27.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:03:27.348+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:03:27.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:03:27.529+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:03:27.539+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:03:27.538+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:03:27.546+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:03:27.546+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:03:27.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.210 seconds
+[2024-01-13T20:55:25.280+0000] {processor.py:161} INFO - Started process (PID=1468) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T20:55:25.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T20:55:25.286+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:55:25.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T20:55:25.571+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T20:55:25.590+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:55:25.589+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T20:55:25.603+0000] {logging_mixin.py:188} INFO - [2024-01-13T20:55:25.602+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T20:55:25.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.333 seconds
+[2024-01-13T21:28:26.198+0000] {processor.py:161} INFO - Started process (PID=1476) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T21:28:26.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T21:28:26.202+0000] {logging_mixin.py:188} INFO - [2024-01-13T21:28:26.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T21:28:26.402+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T21:28:26.411+0000] {logging_mixin.py:188} INFO - [2024-01-13T21:28:26.411+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T21:28:26.419+0000] {logging_mixin.py:188} INFO - [2024-01-13T21:28:26.419+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T21:28:26.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.232 seconds
+[2024-01-13T22:45:07.130+0000] {processor.py:161} INFO - Started process (PID=1484) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T22:45:07.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T22:45:07.135+0000] {logging_mixin.py:188} INFO - [2024-01-13T22:45:07.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T22:45:07.526+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T22:45:07.540+0000] {logging_mixin.py:188} INFO - [2024-01-13T22:45:07.540+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T22:45:07.554+0000] {logging_mixin.py:188} INFO - [2024-01-13T22:45:07.553+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T22:45:07.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.436 seconds
+[2024-01-13T23:36:01.316+0000] {processor.py:161} INFO - Started process (PID=1492) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T23:36:01.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T23:36:01.322+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:36:01.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T23:36:01.708+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T23:36:01.737+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:36:01.737+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T23:36:01.754+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:36:01.754+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T23:36:01.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.459 seconds
+[2024-01-13T23:49:01.899+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/second_project.py
+[2024-01-13T23:49:01.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/second_project.py for tasks to queue
+[2024-01-13T23:49:01.901+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:49:01.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/second_project.py
+[2024-01-13T23:49:02.099+0000] {processor.py:840} INFO - DAG(s) 'covid_dag' retrieved from /opt/airflow/dags/second_project.py
+[2024-01-13T23:49:02.109+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:49:02.108+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-13T23:49:02.117+0000] {logging_mixin.py:188} INFO - [2024-01-13T23:49:02.117+0000] {dag.py:3820} INFO - Setting next_dagrun for covid_dag to 2024-01-13T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-13T23:49:02.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/second_project.py took 0.226 seconds

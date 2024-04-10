@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  postgres_seyi:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: oluwaseyi
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: covid19_data
+    ports:
+      - "5432:5432"
+    networks:
+      - oluwaseyi
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=omolewaoluranti@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=0296
+    ports:
+      - "82:80"
+    depends_on:
+      - postgres
+    networks:
+      - oluwaseyi
+
+
+  covid19_data:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    networks:
+      - oluwaseyi
+
+networks:
+  oluwaseyi:
+    driver: bridge
+
+#docker compose up
+
+# docker run --name some-postgres -e  POSTGRES_USER=oluwaseyi -e POSTGRES_PASSWORD=0296 -e POSTGRES_DB=covid19_data --network oluwaseyi -d postgres
+# docker run --name my-pgadmin -p 82:80 -e 'PGADMIN_DEFAULT_EMAIL=omolewaoluranti@gmail.com' -e 'PGADMIN_DEFAULT_PASSWORD=0296' --network oluwaseyi -d dpage/pgadmin4
+# docker network create -d bridge oluwaseyi
+
+
+FROM python:3.9
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install pandas wget sqlalchemy psycopg2
+
+CMD ["python", "second_project.py"]
+
+
+open -a Docker (starting docker)
